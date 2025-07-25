@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*shared-style*/
+.p-color{
+    font-size: 1.37rem;
+    color: #0000007b;
+}
+.max-width{
+     max-width: 1140px;
+     margin: auto;
+}
+
+
+/*navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 20px auto;
+}
+.nav-ul{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.nav-li{
+    list-style: none;
+}
+.nav-a{
+    text-decoration: none;
+    color: #000000;
+}
+.dark{
+    color: #8987A1;
+}
+.cart{
+    color: #252432;
+}
+
+/*header-banner*/
+.header-banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+    align-items: end;
+}
+
+.header-title{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.fresh{
+    color: #E95A08;
+}
+.header-description{
+    margin-top: 10px;
+}
+.header-img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*title*/
+.our-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin: 20px;
+}
+.our-plants{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 49px;
+}
+
+/*lily-banner*/
+.lily-blossom{
+    max-width: 270px;
+    height: 484px;
+    align-items: end;
+    margin-bottom: 80px;
+}
+.lily-img{
+    max-width: 100%;
+    height: 323px;
+}
+.lily-info{
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #111111;
+}
+#abc{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#usd{
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.lily-btn{
+    color: #ffffff;
+    background-color: #E95A08;
+    width: 100%;
+    font-weight: 600;
+    height: 50px;
+    border: none;
+}
+.lily-content{
+    text-align: center;
+}
+.lily-banner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+
+/*badge-style*/
+#badge{
+    display: flex;
+    margin-top: 120px;
+    position: relative;
+}
+.badge-img{
+    width: 540px;
+}
+.main-badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -130px;
+    left: 31%;
+}
+.badge-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#badge-info{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.badge-description{
+    max-width: 540px;
+    margin-left: 100px;
+    margin-top: 33px;
+}
+
+
+/*deals*/
+.deals{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+/*zabo-plant*/
+.zabo-plant{
+    display: flex;
+    gap: 20px;
+}
+.bg-img{
+    background-image: url(./assets/deal-bloom.png);
+    height: 201px;
+    width: 367px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+}
+.text-center{
+    margin: 0 auto;
+}
+.img-bg{
+    background-image: url(./assets/deal-ana.png);
+    height: 197px;
+    width: 367px;
+    text-align: center;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+}
+.img-right{
+    background-image: url(./assets/deal-zabo.png);
+    height: 423px;
+    width: 753px;text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.text-center .left-info{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.text-center .left-link{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+.text-center .right-info{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+.text-center .right-link{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/*colorful*/
+.colorful{
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 533px;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.colorful-info{
+    text-align: center;
+    margin: auto;
+}
+.colorful-info .colorful-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.bunch-btn{
+    display: flex;
+    max-width: 830px;
+}
+#input-email{
+    max-width: 80%;
+    width: 644px;
+    height: 50px;
+   padding: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.subscribe-btn{
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #E95A08;
+    padding: 18px 53px;
+    width: 20%;
+    max-width: 186px;
+    max-height: 50px;
+    border: none;
+}
+/*footer-content*/
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1120px;
+    height: 248px;
+    margin: 50px auto;
+}
+.footer-ul li{
+    list-style: none;
+    color: gray;
+}
+.footer-ul{
+    display: grid;
+    grid-template-columns: (1,1fr);
+    gap: 10px;
+}
+#footer-p{
+    margin-top: 16px;
+}
+.end-img{
+    margin-left: 24px;
+}
+
+
+
+
+/*responsive-design*/
+@media screen and (max-width:576px) {
+    *{
+      margin: 0 5px;
+       overflow-x: hidden;
+    }
+    .navbar{
+    
+    }
+    .nav-ul .nav-li #hide{
+        display: none;
+    }
+    /*banner*/
+    .header-banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header-img{
+        margin-right: -5px;
+    }
+    
+    .header-title{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 40x;
+    }
+    .header-description{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /*lily-blossom*/
+    .lily-banner{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    /*badge*/
+    #badge{
+        display: grid;
+        grid-template-columns: 1;
+    }
+    .main-badge{
+        display: none;
+    }
+    .badge-description{
+        margin-left: 0px;
+    }
+    #badge-info{
+        margin-left: -10px;
+    }
+    /*zab*/
+    .zabo-plant{
+        display: grid;
+        grid-template-columns: 1;
+    }
+    .img-right{
+        width: 380px;
+        height: 177px;
+    }
+    .img-bg, 
+    .bg-img{
+        width: 380px;
+    }
+}

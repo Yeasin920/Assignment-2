@@ -59,7 +59,8 @@
     margin-top: 10px;
 }
 .header-img{
-    max-width: 100%;
+    width: 100%;
+    max-width: 570px;
     height: auto;
     display: block;
 }
@@ -78,6 +79,7 @@
 
 /*lily-banner*/
 .lily-blossom{
+    width: 100%;
     max-width: 270px;
     height: 484px;
     align-items: end;
@@ -122,10 +124,12 @@
 #badge{
     display: flex;
     margin-top: 120px;
+    gap: 60px;
     position: relative;
 }
 .badge-img{
-    width: 540px;
+    max-width: 540px;
+    width: 100%;
 }
 .main-badge{
     width: 286px;
@@ -144,8 +148,7 @@
     margin-left: 30px;
 }
 .badge-description{
-    max-width: 540px;
-    margin-left: 100px;
+   width: 100%;
     margin-top: 33px;
 }
 
@@ -159,12 +162,17 @@
 /*zabo-plant*/
 .zabo-plant{
     display: flex;
+    justify-content: space-between;
     gap: 20px;
+}
+.img-left{
+    max-width: 367px;
+    width: 100%;
 }
 .bg-img{
     background-image: url(./assets/deal-bloom.png);
     height: 201px;
-    width: 367px;
+    width: 100%;
     margin-bottom: 25px;
     text-align: center;
     border-radius: 14px;
@@ -176,17 +184,22 @@
 }
 .img-bg{
     background-image: url(./assets/deal-ana.png);
-    height: 197px;
-    width: 367px;
+    height: 197px; 
+    width: 100%;
     text-align: center;
     border-radius: 14px;
     display: flex;
     align-items: center;
 }
+.right-img{
+    max-width: 753px;
+    width: 100%;
+}
 .img-right{
     background-image: url(./assets/deal-zabo.png);
     height: 423px;
-    width: 753px;text-align: center;
+    width: 100%;
+    text-align: center;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -220,14 +233,16 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    min-height: 533px;
+    height: 533px;
     margin-top: 120px;
     display: flex;
     align-items: center;
+
 }
 .colorful-info{
     text-align: center;
     margin: auto;
+    width: 830px;
 }
 .colorful-info .colorful-title{
     font-size: 50px;
@@ -238,10 +253,11 @@
 .bunch-btn{
     display: flex;
     max-width: 830px;
+    margin: auto
+    
 }
 #input-email{
-    max-width: 80%;
-    width: 644px;
+    width: 70%;
     height: 50px;
    padding: 20px;
     color: rgba(0, 0, 0, 0.5);
@@ -251,9 +267,9 @@
     font-weight: 600;
     color: #ffffff;
     background-color: #E95A08;
-    padding: 18px 53px;
-    width: 20%;
-    max-width: 186px;
+    padding: 14px;
+    width: 30%;
+    max-width: ;
     max-height: 50px;
     border: none;
 }
@@ -262,7 +278,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1120px;
-    height: 248px;
+    height: 100%;
     margin: 50px auto;
 }
 .footer-ul li{
@@ -272,7 +288,7 @@
 .footer-ul{
     display: grid;
     grid-template-columns: (1,1fr);
-    gap: 10px;
+    gap: 20px;
 }
 #footer-p{
     margin-top: 16px;
@@ -297,12 +313,13 @@
         display: none;
     }
     /*banner*/
+    .header-content{
+     margin-top: ;
+}
     .header-banner{
         display: flex;
         flex-direction: column-reverse;
-    }
-    .header-img{
-        margin-right: -5px;
+        gap: 20px;
     }
     
     .header-title{
@@ -328,22 +345,47 @@
         display: none;
     }
     .badge-description{
-        margin-left: 0px;
     }
     #badge-info{
-        margin-left: -10px;
+        margin-left: ;
     }
     /*zab*/
     .zabo-plant{
         display: grid;
         grid-template-columns: 1;
     }
+    .img-left{
+        max-width: 100%;
+    }
+    .right-img{
+        height: ;
+    }
     .img-right{
-        width: 380px;
         height: 177px;
+    }
+    #zabo-title{
+        
     }
     .img-bg, 
     .bg-img{
-        width: 380px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bunch-btn{
+        margin: 0 10px;
+    }
+    .subscribe-btn{
+        margin-left: -5px;
+    }
+    /*footer*/
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    .footer-ul{
+        margin: 0 20px;
+        
     }
 }

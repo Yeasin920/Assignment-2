@@ -83,7 +83,7 @@
     max-width: 270px;
     height: 484px;
     align-items: end;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 .lily-img{
     max-width: 100%;
@@ -123,7 +123,7 @@
 /*badge-style*/
 #badge{
     display: flex;
-    margin-top: 120px;
+    margin-top: 100px;
     gap: 60px;
     position: relative;
 }
@@ -340,14 +340,55 @@
     #badge{
         display: grid;
         grid-template-columns: 1;
+        margin-top: 30px;
     }
     .main-badge{
         display: none;
     }
     .badge-description{
+        margin-top: -50px;
     }
     #badge-info{
         margin-left: ;
+    }
+     /*zab*/
+    .zabo-plant{
+        display: grid;
+        grid-template-columns: 1;
+    }
+    .img-left{
+        max-width: 100%;
+    }
+    .right-img{
+        height: ;
+    }
+    .img-right{
+        height: 177px;
+    }
+    #zabo-title{
+        
+    }
+    .img-bg, 
+    .bg-img{
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bunch-btn{
+        margin: 0 10px;
+    }
+    .subscribe-btn{
+        margin-left: -5px;
+    }
+    /*footer*/
+    .footer-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    .footer-ul{
+        margin: 0 20px;
+        
     }
    
 }
